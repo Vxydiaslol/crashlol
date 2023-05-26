@@ -1,8 +1,3 @@
---[[
-
-25KFN WARE 
-                                                                                
-]]--
 local char = game:GetService('Players').LocalPlayer.Character or nil
 if char then
 char.HumanoidRootPart.CFrame = CFrame.new(0,9e9,0)
@@ -52,14 +47,6 @@ end
 end
  
 bomb(289, 5) --// change values if client crashes
-end
-local phrases = {"marvco4362 | my server is .gg/soggy join it for the script", "marvco4362 | im lagging this server i hate all of you", "marvco4362 | together we can get rid of all the script kiddies"}
-
-while true do
-    for i = 1, 5 do
-        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(phrases[i], "All")
-        wait(2.25)
-    end
 end
 
 
